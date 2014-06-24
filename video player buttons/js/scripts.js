@@ -13,25 +13,18 @@ function PlayVid() {
 }
 
 function NextVid() {
-	//var x = document.getElementById("example_video_1");
 	
-	/*
-	if (x.src == "http://video-js.zencoder.com/oceans-clip.mp4") {
+	console.log(i);
+	if( i >= videolist.length - 1) {
+		i = 0;
 		x.src = videolist[i];
-		console.log(x.src);
+		return;
 	}
 	else {
 		i++;
 		x.src = videolist[i];
-		console.log(x.src);
+		return;
 	}
-	
-	*/
-	if( i > videolist.length) {
-		i = 0;
-	}
-	i++;
-	x.src = videolist[i];
 }
 
 function LastVid() {
@@ -43,3 +36,4 @@ function LastVid() {
 	
 }
 
+function 

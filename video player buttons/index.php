@@ -35,6 +35,8 @@
 		<button type="button" onclick="LastVid()">Previous</button>
 		<button type="button" onclick="PlayVid()">Play/Pause</button>
 		<button type="button" onclick="NextVid()">Next</button>
+		<button type="button" onclick="SkipVid()">Skip to</button>
+		
 	</div>
 	
 	<script type="text/javascript" src="js/global.js"></script>
