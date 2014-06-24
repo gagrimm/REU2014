@@ -36,4 +36,6 @@ function LastVid() {
 	
 }
 
-function 
+function SkipVid() {
+
+}
