@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body>
+<div style="text-align:center">
+	
+	<video id="video1" width="420" controls>
+		<source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
+	</video>
+</div>
+	
+<button onclick="playPause()">Play/Pause</button>	
+<button onclick="next()">Next</button>
+	
+<script>
+	var myVideo=document.getElementById("video1");
+
+	function playPause() { 
+	    if (myVideo.paused) 
+	        myVideo.play(); 
+	    else 
+	        myVideo.pause(); 
+	} 
+	
+	function next() {
+		myVideo.src="http://video-js.zencoder.com/oceans-clip.mp4"
+	}
+	
+</script>
+
+
+	
+	
+</body>
+</html>
