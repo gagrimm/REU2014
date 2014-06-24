@@ -27,7 +27,9 @@ function NextVid() {
 	}
 	
 	*/
-	
+	if( i > videolist.length) {
+		i = 0;
+	}
 	i++;
 	x.src = videolist[i];
 }
@@ -37,6 +39,7 @@ function LastVid() {
 	console.log(videolist[0]);
 	console.log(videolist[1]);
 	console.log(videolist[2]);
+	console.log(videolist.length);
 	
 }
 
