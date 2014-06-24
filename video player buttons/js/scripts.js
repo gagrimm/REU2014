@@ -15,7 +15,7 @@ function PlayVid() {
 function NextVid() {
 	//var x = document.getElementById("example_video_1");
 	
-	var i = 0;
+	
 	if (x.src == "http://video-js.zencoder.com/oceans-clip.mp4") {
 		x.src = videolist[i];
 		console.log(x.src);
