@@ -1,5 +1,0 @@
-@CHARSET "ISO-8859-1";
-
-.container { float:left; border:1px solid red; margin-right:20px; }
-    .top { width:100%; border:1px solid orange; }
-    .bottom { width:100%; border:1px solid navy; height:100px; }
